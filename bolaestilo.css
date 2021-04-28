@@ -54,9 +54,12 @@
 
 .bola {
     position: absolute;
-    top:50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    top:30%;
     left:50%;
-    transform: translate(-50%, -50%);
+    bottom: 75%;
+    /*transform: translate(-50%, -50%);*/
     width: 355px;
     height:355px;
     text-align: center;
@@ -95,10 +98,10 @@
 }
 
 .animate {
-    animation: shake 3s alternate;
+    animation: shake 4s alternate;
 }
 .base-uno base-dos{ 
-    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    animation: shake 1.5s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
     perspective: 1000px;
@@ -127,7 +130,7 @@
 }
 
 .fadeIn {
-    animation: shakefadeIn ease 4s;
+    animation: shake fadeIn ease 4s;
     font-family: "Eater",cursive;
     font-size:20px;
 }
@@ -141,7 +144,7 @@
     }
     
     20%, 80% {
-      transform: translate3d(2px, 0, 0);
+      transform: translate3d(5px, 0, 0);
     }
   
     30%, 50%, 70% {
