@@ -28,6 +28,32 @@ const  answers = [
      
      });   
  }
- 
- 
+/*randomIndex = randomize();
+key = Object.keys(origWords)[randomIndex];
+p.textContent = key;
+playSound(origWords[key]);
+     const p = document.getElementById("randomWord");
+const myWords = [
+    {
+       text: "alpha",
+       audio: "alpha.mp3"
+    },
+    {
+       text: "bravo",
+       audio: "bravo.mp3"
+    }
+ ];
+ let remainingWords = [];
+
+function randomize() {
+  if (remainingWords.length === 0) remainingWords = myWords.slice();
+  let length = remainingWords.length;
+  let randomIndex = Math.floor(Math.random() * length);
+  const word = remainingWords[randomIndex];
+  remainingWords.splice(randomIndex, 1);
+  console.log(word);
+  console.dir(p);
+  p.textContent = word.text;
+// your audio code here like audio.play(word.audio);
+};*/
  
