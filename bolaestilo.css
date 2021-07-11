@@ -16,7 +16,7 @@
     width:100vw;
     height:100vh;
     border:solid black 1px;
-    background-image: linear-gradient(rgb(75, 26, 104), rgb(25, 4, 32));
+    background-image: linear-gradient(rgb(113, 190, 226), rgb(25, 4, 32));
 }
 
 .header {
@@ -37,18 +37,18 @@
     font-family: "Eater", cursive;
     font-size: 16px;
     letter-spacing: 3px;
-    color:white;
+    color:rgb(13, 153, 246);
     width:200px;
     height:100px;
     outline: none;
     border-radius: 5px;
-    background-color: #a3f556;
+    background-color: #c5ee9e;
     border:none;
-    box-shadow: 2px 2px 1px #5fc042, -2px -2px 1px #cffd63;
+    box-shadow: 2px 2px 1px #336424, -2px -2px 1px #50cea4;
 }
 
 .pregunta:active {
-    box-shadow: inset 2px 2px 1px #5fc042, -2px -2px 1px #adfd63;
+    box-shadow: inset 2px 2px 1px #92dd7b, -2px -2px 1px #adfd63;
     outline:none;
 }
 
